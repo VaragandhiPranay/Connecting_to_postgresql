@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 app = Flask(__name__)
-DATABASE_URL = 'postgresql://postgres:Yuvi%40123@localhost:5433/login_db'
+DATABASE_URL = 'postgresql://postgres:######@localhost:5433/login_db'
 app.config.update(
         SECRET_KEY = "ASDFGHJKL",
         SQLALCHEMY_DATABASE_URI = DATABASE_URL,
